@@ -1,0 +1,93 @@
+/* Sfondo */
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+/* Impostazioni generali */
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 65%;
+  padding-bottom: 8%;
+  margin: auto;
+  border-radius: 2.5%;
+  background-color: rgba(0,0,0,0.5);
+  font-family: Arial;
+}
+
+/* Contenuto header */
+header{
+  text-align: center;
+  color: rgb(0,221,0);
+}
+
+.logo{
+  padding-top: 10%;
+  width: 200px;
+}
+
+header>h1{
+  font-weight: lighter;
+  margin: auto;
+}
+
+
+/* Contenuto Nav */
+nav{
+  margin:auto;
+  width: 85%;
+  height: 5%;
+  background-color: rgb(0,221,0);
+  padding: 1%;
+  text-align: center;
+}
+
+/* Contenuto Main */
+main{
+  margin: auto;
+  width: 85%;
+  font-size: 13px;
+  color: white;
+}
+
+div span{
+  display: block;
+  padding-bottom: 5px;
+}
+
+div span:first-child{
+  font-weight: 550;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.street:before{
+  content: '\21A6';
+}
+
+.opt{
+    height: 25px;
+    border-radius: 7px;
+    margin: 0;
+}
+
+#opt1{
+  background-color: rgb(245, 180, 83);
+  border-color:  rgb(245, 180, 83);
+  width: 300px;
+}
+
+#opt2{
+  background-color: rgb(30, 195, 30);
+  border-color:  rgb(30, 195, 30);
+  width: 500px;
+}
+
+#opt3{
+  background-color: rgb(190, 65, 65);
+  border-color:  rgb(190, 65, 65);
+  width: 100px;
+}
